@@ -50,7 +50,7 @@ table {
 
 /* Same across all three pages */
 body {
-	background-image: url(Images/BgImage.jpg);
+	background-image: url(../Images/BgImage.jpg);
 	background-color: #000000;
 	color: 	#DCDCDC;
 	font-family: 'Graduate', cursive;
@@ -102,6 +102,17 @@ nav#navmenu ul li a:hover {
 	text-decoration: underline;
 }
 
+#navlist li:before {
+	content: "|";
+	color: #fff;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#navlist li:first-child:before {
+	content: "";
+}
+
 #mypic {
 	margin: 1% 1% 1% 7%;
 }
@@ -115,7 +126,7 @@ nav#navmenu ul li a:hover {
 	list-style: square;
 }
 
-#ulclass1, #ulclass2 {
+#ulclass1, #ulclass2, #ulclass3, #ulclass4 {
 	margin: 1% 2% 1% 7%;
 	list-style-image: url('http://findicons.com/files/icons/1620/crystal_project/32/mycomputer.png');
 }
