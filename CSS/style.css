@@ -75,7 +75,7 @@ nav#navmenu {
 nav#navmenu ul {
 	list-style-type: none;
 	padding: 1%;
-	width: 400px;
+	width: 530px;
 	margin: 0px auto;
 	overflow: hidden;
 }
@@ -86,7 +86,6 @@ nav#navmenu ul li {
 }
 
 nav#navmenu ul li a {
-	display: block;
 	font-size: 150%;
 	color: #fff;
 	font-family: 'Graduate', cursive;
@@ -94,6 +93,7 @@ nav#navmenu ul li a {
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
+	
 }
 
 nav#navmenu ul li a:hover {
@@ -107,6 +107,7 @@ nav#navmenu ul li a:hover {
 	color: #fff;
 	font-weight: bold;
 	font-size: 150%;
+	padding-right: 5px;
 }
 
 #navlist li:first-child:before {
@@ -118,7 +119,8 @@ nav#navmenu ul li a:hover {
 }
 
 #iitlogo {
-	margin: 1% 1% 1% 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #ulexperience1, #ulexperience2, #ulexperience3, #ulschools, #ulskills {
@@ -136,6 +138,11 @@ nav#navmenu ul li a:hover {
 #footer {
 	margin: 0px auto;
 	width: 300px;
+	color: #fff;
+}
+
+#footer a {
+	color: #fff;
 }
 
 /*Fixed Pages*/
@@ -147,6 +154,11 @@ nav#navmenu ul li a:hover {
 	margin-right: auto;
 }
 
+#linkedin a {
+	color: #fff;
+	text-decoration: none;
+}
+
 /*Fluid Page*/
 #schoolmain {
 	width: 40%;
@@ -155,3 +167,47 @@ nav#navmenu ul li a:hover {
 	background-color: #000000;
 }
 
+#ytvid {
+	margin: auto;
+}
+
+/*Slideshow CSS*/
+#slides {
+    display: none
+}
+
+.container {
+    margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+    body {
+		padding-left: 20px;
+        padding-right: 20px;
+    }
+	.container {
+        width: auto;
+    }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+    .container {
+        width: auto;
+    }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 724px;
+    }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

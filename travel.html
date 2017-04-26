@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travels</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+	
+	<link rel="stylesheet" href="CSS/font-awesome.min.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.slides.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<nav id="navmenu">
+			<ul id="navlist">
+				<li><a href="index.html">Homepage </a></li>
+				<li><a href="resume.html">Resume </a></li>
+				<li><a href="school.html">School</a></li>
+				<li><a href="travel.html">Travels</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div id="slides">
+			<img src="Images/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+			<img src="Images/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+			<img src="Images/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+			<img src="Images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+			<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+			<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+		</div>
+	</div>
+	<!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+	<script>
+	$(function() {
+		$('#slides').slidesjs({
+		width: 940,
+        height: 528,
+        navigation: false
+		});
+    });
+	</script>
+	<!-- End SlidesJS Required -->
+	<footer id="footer">
+		<p>
+			Created by Tony Nguyen
+		</p>
+		<address>
+			<p>
+				<a href="mailto:tkn5865@gmail.com">tkn5865@gmail.com</a>
+			</p>
+			<p>
+				<a href="tel:+17087142977">708-714-2977</a>
+			</p>
+		</address>
+	</footer>
+<body>
+</html>
